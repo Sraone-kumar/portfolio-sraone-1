@@ -60,7 +60,7 @@ export default function Test({ isInView }) {
             initial="open"
             animate={animateComp}
             transition={textTransition}
-            className=" font-thin text-xs"
+            className="font-light text-sm"
           >
             <li>
               A simple twitter or X clone with features like posts/tweets,
@@ -97,9 +97,9 @@ export default function Test({ isInView }) {
             initial="open"
             animate={animateComp}
             transition={textTransition}
-            className="flex items-center justify-between"
+            className="flex  items-center justify-between"
           >
-            <div className="flex text-s font-semibold items-center gap-2">
+            <div className="flex text-s font-normal items-center gap-2">
               <svg
                 viewBox="0 30 100 30"
                 className="w-4 h-4"

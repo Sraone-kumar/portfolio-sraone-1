@@ -13,8 +13,22 @@ export default function ContactMe({ li }) {
           <div className="flex w-[50%] items-center justify-center bg-white">
             <span className="font-sans text-[50px]">Contact me</span>
           </div>
-          <div className="flex w-[50%] flex-col items-center justify-center gap-5 bg-black p-10 text-white">
-            <div className="flex  h-[10vh] w-full">
+          <div className="flex w-[50%] flex-col items-center justify-center gap-5 bg-black p-20 text-white">
+            <div className="flex  h-[50px] w-full">
+              <label
+                className="text-nowrap overflow-hidden flex w-28 items-center justify-center  border-2 p-2"
+                htmlFor="name"
+              >
+                Your Name
+              </label>
+              <input
+                className="w-full  px-2 pr-3 text-black outline-none"
+                name="name"
+                type="text"
+                placeholder="enter your name"
+              />
+            </div>
+            <div className="flex  h-[50px] w-full">
               <label
                 className="text-nowrap overflow-hidden flex w-28 items-center justify-center  border-2 p-2"
                 htmlFor="mail"
@@ -28,6 +42,7 @@ export default function ContactMe({ li }) {
                 placeholder="example@email.com"
               />
             </div>
+
             <div className="flex w-full flex-col  border-2">
               <label
                 className="flex items-center justify-center py-3"

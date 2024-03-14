@@ -12,10 +12,10 @@ export default function Skills({ li }) {
         ref={ref}
         className="flex min-h-screen flex-col items-center gap-5 bg-black py-5"
       >
-        <div className="my-4 text-3xl text-white">SKILLS</div>
+        <div className="my-6 text-3xl text-white">SKILLS</div>
 
         <div className="flex flex-wrap items-center justify-center border border-white">
-          <div className="flex h-[100px] min-w-[1000px]">
+          <div className="flex h-[80px] min-w-[1000px]">
             <div className="flex w-[50%] items-center justify-center text-white">
               Programming Skills
             </div>
@@ -31,7 +31,7 @@ export default function Skills({ li }) {
         </div>
 
         <div className="flex flex-wrap items-center justify-center border border-white">
-          <div className="flex h-[100px] min-w-[1000px]">
+          <div className="flex h-[80px] min-w-[1000px]">
             <div className="flex w-[50%] items-center justify-center bg-white">
               Frameworks
             </div>
@@ -48,7 +48,7 @@ export default function Skills({ li }) {
         </div>
 
         <div className="flex flex-wrap items-center justify-center border border-white">
-          <div className="flex h-[100px] min-w-[1000px]">
+          <div className="flex h-[80px] min-w-[1000px]">
             <div className="flex w-[50%] items-center justify-center text-white">
               Databases
             </div>
@@ -62,7 +62,7 @@ export default function Skills({ li }) {
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-center border border-white">
-          <div className="flex h-[100px] min-w-[1000px]">
+          <div className="flex h-[80px] min-w-[1000px]">
             <div className="flex w-[50%] items-center justify-center bg-white">
               Cloud platforms
             </div>
@@ -78,7 +78,7 @@ export default function Skills({ li }) {
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-center border border-white">
-          <div className="flex h-[100px] min-w-[1000px]">
+          <div className="flex h-[80px] min-w-[1000px]">
             <div className="flex w-[50%] items-center justify-center text-white">
               DevOps Tools
             </div>
@@ -95,7 +95,7 @@ export default function Skills({ li }) {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-10 border border-white">
-          <div className="flex h-[100px] min-w-[1000px]">
+          <div className="flex h-[80px] min-w-[1000px]">
             <div className="flex w-[50%] items-center justify-center bg-white">
               Other Tools
             </div>

@@ -95,7 +95,7 @@ export default function Projects({ li }) {
             </motion.div> */}
 
           <Test isInView={isInView} />
-          {/* <Test isInView={isInView}/> */}
+          {/* <Test isInView={isInView} /> */}
           {/* <Test isInView={isInView}/> */}
         </div>
       </div>
