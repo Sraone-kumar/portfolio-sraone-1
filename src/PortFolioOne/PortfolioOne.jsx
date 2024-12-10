@@ -16,6 +16,8 @@ import ContactMobile from "./mobilecomponents/ContactMobile";
 import SkillsMobile from "./mobilecomponents/SkillsMobile";
 import ProjectsMobile from "./mobilecomponents/ProjectsMobile";
 import ExperienceMobile from "./mobilecomponents/ExperienceMobile";
+import ProjectsV2 from "./components/Projects_v2";
+import ProjectsMobileV2 from "./mobilecomponents/ProjectsMobile_v2";
 
 export default function PortfolioOne() {
   const [experience, getExperience] = useState();
@@ -52,9 +54,10 @@ export default function PortfolioOne() {
                   home={home}
                   skills={skills}
                 />{" "}
-                <HomeTwo li={getHome} />
+                <Home li={getHome} />
                 <Skills li={getSkills} />
-                <Projects li={getProjects} />
+                {/* <Projects li={getProjects} /> */}
+                <ProjectsV2 li={getProjects} />
                 <Experience li={getExperience} />
                 <ContactMe li={getContact} />
               </>
@@ -62,7 +65,8 @@ export default function PortfolioOne() {
               <>
                 <HomeMobile />
                 <SkillsMobile />
-                <ProjectsMobile />
+                {/* <ProjectsMobile /> */}
+                <ProjectsMobileV2 />
                 <ExperienceMobile />
                 <ContactMobile />
               </>

@@ -21,7 +21,7 @@ export default function NavBar({
         transition={{
           type: "spring",
           duration: 0.25,
-          delay: 2.3,
+          delay: 1.25,
           ease: "easeInOut",
         }}
         className="fixed top-0 z-30 w-full shadow-md"
@@ -51,7 +51,7 @@ export default function NavBar({
             }}
             href="#"
           >
-            skills
+            Skills
           </a>
           <a
             className=" py-1 border-2 border-black active:scale-95 rounded-full flex items-center justify-center px-5 hover:bg-white hover:text-black"

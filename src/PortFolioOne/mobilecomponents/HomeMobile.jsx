@@ -1,19 +1,19 @@
+import info from "../../info";
+
 export default function HomeMobile() {
+  const { name, designation, description, social } = info.home;
   return (
     <>
-      <div className="flex min-h-screen flex-col bg-black">
+      <div className="flex min-h-[100mvh] flex-col bg-black">
         <div className="flex h-[50vh] items-center justify-center text-white">
-          <span className="text-3xl">Sravan Kumar</span>
+          <span className="text-3xl">{name}</span>
         </div>
-        <div className="flex h-[50vh] flex-col items-center gap-y-10 bg-white p-5">
-          <span className="mt-10 text-3xl font-medium">Software Developer</span>
-          <span className="text-center text-xl font-thin">
-            I&apos;m a sofware developer skilled in React, Node.js, python and
-            Django and can build different web applications.
-          </span>
+        <div className="flex h-[50mvh] flex-col items-center gap-y-10 bg-white p-5">
+          <span className="mt-10 text-3xl font-medium">{designation}</span>
+          <span className="text-center text-xl font-thin">{description}</span>
 
           <div className=" flex gap-5">
-            <a href="">
+            <a id="x_social" href={social.x} target="__blank">
               <svg
                 width="35"
                 height="35"
@@ -27,7 +27,7 @@ export default function HomeMobile() {
                 />
               </svg>
             </a>
-            <a href="">
+            <a id="linkedIn" href={social.linkedIn} target="__blank">
               <svg
                 width="35"
                 height="35"
@@ -61,7 +61,7 @@ export default function HomeMobile() {
               </svg>
             </a>
 
-            <a href="">
+            <a id="github" href={social.github} target="__blank">
               <svg
                 width="35"
                 height="35"
@@ -83,7 +83,13 @@ export default function HomeMobile() {
               </svg>
             </a>
 
-            <a href="">
+            <button
+              onClick={() => {
+                navigator.clipboard.writeText(social.gmail);
+                alert("gmail copied to clipboard");
+              }}
+              id="gmail"
+            >
               <svg
                 width="35"
                 height="35"
@@ -107,9 +113,9 @@ export default function HomeMobile() {
                   </clipPath>
                 </defs>
               </svg>
-            </a>
+            </button>
 
-            <a href="">
+            <a id="resume" href={social.resume} target="__blank">
               <svg
                 width="35"
                 height="35"
