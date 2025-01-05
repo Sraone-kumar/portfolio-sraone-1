@@ -74,7 +74,7 @@ const info = {
         designation: "Programmer Analyst",
         company: "cognizant",
         details: [
-          "Build and automated a real time a web dash board using react and node.js that provides health status based on the windows services running on a server. This has significantly reduced the work force required to manually check and maintain the servers.",
+          "Build and automated a real time  web dash board using react and node.js that provides health status of an application based on the windows services running on a server. This has significantly reduced the work force required to manually check and maintain the servers.",
           "Build and developed a GenAI RAG application using react,node and python. Application consists of multiple features like rag chat bot, sentiment analysis, score estimation.",
         ],
       },
@@ -83,9 +83,9 @@ const info = {
         designation: "Intern",
         company: "cognizant",
         details: [
-          "Build a real time authentication system using node,express and react.",
+          "Build a real time authentication system using node, express and react.",
           "Utilized JSON Webtoken and bcrypt libraries for sessioning and encryption.",
-          "Maintained clean code and wrote tests and well documented the code.",
+          "Maintained clean and efficient code by following best practices and code reviews.",
         ],
       },
     ],

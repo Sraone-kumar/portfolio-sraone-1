@@ -210,6 +210,18 @@ export default function ProjectsMobileV2() {
           <ChevronRightIcon className="size-8 text-black" />
         </motion.div> */}
       </div>
+      <div className="flex gap-2">
+        {data.map((_, idx) => {
+          return (
+            <div
+              key={idx}
+              className={` size-3 flex ${
+                current === idx ? "bg-white" : "bg-white/75"
+              } rounded-full`}
+            ></div>
+          );
+        })}
+      </div>
     </div>
   );
 }
